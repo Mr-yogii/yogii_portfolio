@@ -29,8 +29,8 @@ export const AboutContent: React.FC = () => {
   };
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Yogeshwaran_M_Resume.pdf';
-    link.download = 'Yogeshwaran_M_Resume.pdf';
+    link.href = './Yogeshwaran_M_Resume.pdf';
+    link.download = './Yogeshwaran_M_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -63,7 +63,7 @@ export const AboutContent: React.FC = () => {
             <div className="glass-panel p-6 h-full">
               <div className="mb-6">
                 <img 
-                  src="/Yogii.jpg" 
+                  src="./Yogii.jpg" 
                   alt="Profile" 
                   className="w-full aspect-square object-cover rounded-xl"/>
               </div>
