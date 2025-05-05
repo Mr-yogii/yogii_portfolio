@@ -125,7 +125,7 @@ export const ContactContent: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 transition"
-                    placeholder="John Doe"
+                    placeholder="Yogii"
                   />
                 </div>
                 <div>
@@ -140,7 +140,7 @@ export const ContactContent: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 transition"
-                    placeholder="john@example.com"
+                    placeholder="yogii@gmal.com"
                   />
                 </div>
               </div>
@@ -263,8 +263,8 @@ export const ContactContent: React.FC = () => {
                 <Globe className="text-warning mt-1 mr-4" />
                 <div>
                   <h4 className="font-medium">Website</h4>
-                  <a href="https://www.yogii-tech.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-warning transition">
-                    www.yogii-tech.com
+                  <a href="https://mr-yogii.github.io/yogii_portfolio" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-warning transition">
+                  Yogii's Portfolio
                   </a>
                 </div>
               </div>
